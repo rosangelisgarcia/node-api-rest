@@ -1,0 +1,24 @@
+<form id="login" method="post">
+	<input type="email" id="email" name="email" value="" placeholder="Email">
+	<input type="password" id="password" name="password" value="" placeholder="Password">
+	<br><br>
+	<input type="submit" value="Login">
+</form>
+
+<script type="text/javascript">
+	const formLogin = document.getElementById('login')
+	const formData = new FormData(formLogin)
+
+	formLogin.addEventListener('submit', event => {
+		event.preventDefault()
+		fetch('/api/signin', {
+			method: 'POST',
+			body: formData
+		})
+		.then(res => res.json())
+		.catch(error => console.error(error))
+		.then(data => {
+			localStorage.setItem('token', data.token)
+		})
+	})
+</script>
