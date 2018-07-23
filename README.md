@@ -1,5 +1,5 @@
 # node-api-rest
-API REST con Node.js
+API REST with Node.js
 
 [Curso de Node.js y MongoDB - Crea un API REST desde cero](https://www.youtube.com/playlist?list=PLUdlARNXMVkk7E88zOrphPyGdS50Tadlr) course on YouTube by Carlos Azaustre.
 
