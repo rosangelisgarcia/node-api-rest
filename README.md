@@ -1,7 +1,7 @@
 # node-api-rest
-API REST con Node.js using the YouTube course by Carlos Azaustre. 
-[Curso de Node.js y MongoDB - Crea un API REST desde cero](https://www.youtube.com/playlist?list=PLUdlARNXMVkk7E88zOrphPyGdS50Tadlr
-)
+API REST con Node.js
+
+[Curso de Node.js y MongoDB - Crea un API REST desde cero](https://www.youtube.com/playlist?list=PLUdlARNXMVkk7E88zOrphPyGdS50Tadlr) course on YouTube by Carlos Azaustre.
 
 ### Requirements
  - Node.js v8.10.0
